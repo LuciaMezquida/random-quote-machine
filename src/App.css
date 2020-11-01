@@ -1,0 +1,17 @@
+body {
+  background-color: #e8dab2;
+  font-family: "Trebuchet MS";
+}
+
+.wrapper {
+  height: 100vh;
+  padding: 40px;
+}
+
+.box {
+  background-color: #4f6d7a;
+  position: relative;
+  color: #e8dab2;
+  font-size: 18px;
+  font-weight: bold;
+}

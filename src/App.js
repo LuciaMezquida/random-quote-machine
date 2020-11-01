@@ -18,11 +18,23 @@ class App extends React.Component {
     fetch(API)
       .then((response) => response.json())
       .then((data) => {
-        this.setState({
-          quotes: data.quotes,
-        });
+        this.setState(
+          {
+            quotes: data.quotes,
+          },
+          this.getRandomIndex
+        );
       });
   }
+  getRandomIndex = () => {
+    const { quotes } = this.state;
+    if (quotes.length > 0) {
+      const index = Math.floor(Math.random() * quotes.length);
+      this.setState({
+        index,
+      });
+    }
+  };
 
   render() {
     return <p>hola</p>;
