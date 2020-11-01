@@ -5,13 +5,35 @@ body {
 
 .wrapper {
   height: 100vh;
-  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
+  width: 500px;
+  padding: 30px;
   background-color: #4f6d7a;
   position: relative;
   color: #e8dab2;
   font-size: 18px;
   font-weight: bold;
+}
+.author {
+  display: block;
+  text-align: right;
+}
+.button-content {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  color: white;
+  background-color: #222f35;
+  text-decoration: none;
+  border: none;
+  font-size: 16px;
+  padding: 7px;
+  border-radius: 10px;
 }
