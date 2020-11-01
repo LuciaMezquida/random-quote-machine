@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/LuciaMezquida/random-quote-machine/static/css/main.1247e70b.chunk.css",
+    "main.js": "/LuciaMezquida/random-quote-machine/static/js/main.75edfd42.chunk.js",
+    "main.js.map": "/LuciaMezquida/random-quote-machine/static/js/main.75edfd42.chunk.js.map",
+    "runtime-main.js": "/LuciaMezquida/random-quote-machine/static/js/runtime-main.3895feb2.js",
+    "runtime-main.js.map": "/LuciaMezquida/random-quote-machine/static/js/runtime-main.3895feb2.js.map",
+    "static/js/2.d4ed2663.chunk.js": "/LuciaMezquida/random-quote-machine/static/js/2.d4ed2663.chunk.js",
+    "static/js/2.d4ed2663.chunk.js.map": "/LuciaMezquida/random-quote-machine/static/js/2.d4ed2663.chunk.js.map",
+    "static/js/3.591007c3.chunk.js": "/LuciaMezquida/random-quote-machine/static/js/3.591007c3.chunk.js",
+    "static/js/3.591007c3.chunk.js.map": "/LuciaMezquida/random-quote-machine/static/js/3.591007c3.chunk.js.map",
+    "index.html": "/LuciaMezquida/random-quote-machine/index.html",
+    "static/css/main.1247e70b.chunk.css.map": "/LuciaMezquida/random-quote-machine/static/css/main.1247e70b.chunk.css.map",
+    "static/js/2.d4ed2663.chunk.js.LICENSE.txt": "/LuciaMezquida/random-quote-machine/static/js/2.d4ed2663.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3895feb2.js",
+    "static/js/2.d4ed2663.chunk.js",
+    "static/css/main.1247e70b.chunk.css",
+    "static/js/main.75edfd42.chunk.js"
+  ]
+}
