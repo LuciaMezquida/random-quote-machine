@@ -27,7 +27,7 @@ class App extends React.Component {
       });
   }
   getRandomIndex = () => {
-    const { quotes } = this.state;
+    const quotes = this.state.quotes;
     if (quotes.length > 0) {
       const index = Math.floor(Math.random() * quotes.length);
       this.setState({
@@ -37,37 +37,30 @@ class App extends React.Component {
   };
 
   render() {
-    const { quotes, index } = this.state;
-
-    const quote = quotes[index];
+    const quotes = this.state.quotes;
+    const index = this.state.index;
+    let quote = quotes[index];
 
     const twitterURL = `http://twitter.com/intent/tweet?text=${quote.quote} - ${quote.author}`;
     return (
-      <div id="quote-box" className="wrapper">
+      <div className="wrapper">
         <div className="box">
-          {quote && (
-            <div>
-              <p id="text" className="quote">
-                {quote.quote}
-              </p>
-              <cite id="author" className="author">
-                - {quote.author} -
-              </cite>
-            </div>
-          )}
+          <div>
+            <p className="quote">{quote.quote}</p>
+            <cite className="author">- {quote.author} -</cite>
+          </div>
 
           <div className="button-content">
             <a
-              id="tweet-quote"
               title="Tweet this!"
               className="btn"
               href={twitterURL}
-              // eslint-disable-next-line
+              rel="noreferrer"
               target="_blank"
             >
               <i className="fab fa-twitter"></i> Tweet
             </a>
-            <button id="new-quote" className="btn" onClick={this.getRandomIndex.bind(this)}>
+            <button className="btn" onClick={this.getRandomIndex.bind(this)}>
               <i className="fas fa-random"></i> New Quote
             </button>
           </div>

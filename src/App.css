@@ -36,4 +36,5 @@ body {
   font-size: 16px;
   padding: 7px;
   border-radius: 10px;
+  outline-style: none;
 }
